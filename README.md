@@ -116,17 +116,5 @@ The project follows a standard Next.js application directory structure, with a f
 ├── postcss.config.mjs          # PostCSS configuration
 └── tsconfig.json               # TypeScript configuration
 ```
-
-## Linting
-
-The project uses ESLint for code quality and consistency:
-
-```bash
-npm run lint
-# or
-yarn lint
-```
-
-The ESLint configuration extends `next/core-web-vitals` and `next/typescript`. TypeScript build errors and ESLint during builds are ignored in `next.config.ts`.
 ```
 ```
