@@ -8,7 +8,7 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "Better - The mortgage lender America trusts",
+    title: "Simple, Online, AI-Powered Mortgage | Better Mortgage",
     description:
     "Get approved in minutes, not weeks. Better mortgage experience with digital tools, expert support, and rates you can trust.",
 }
@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
+            <head>
+                <link href="https://media.better.com/better-com/1627660194327/meta/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+            </head>
             <body className={inter.className}>
                 <Header />
                 <main>
