@@ -116,5 +116,3 @@ The project follows a standard Next.js application directory structure, with a f
 ├── postcss.config.mjs          # PostCSS configuration
 └── tsconfig.json               # TypeScript configuration
 ```
-```
-```
